@@ -6,6 +6,8 @@ the foundation has been able to provide access to basic necessities such as food
 The foundation's partners have contributed not only financially, but also through volunteering and sharing their resources, skills, and expertise. 
 With the help of these partnerships, the Komunidad Foundation has been able to make a significant impact in the lives of many Filipinos who are living in poverty.
 
+This Organization/Website was founded by Noie Glenn Manoy, Yuan Benjamin Caisip, Ryan Joshua Milan, Shem Kahlil Payad
+
 The Website Consists of Components Such as 
 
 - App Component
