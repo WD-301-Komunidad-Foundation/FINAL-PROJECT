@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+.logo-container {
+  padding: 30px;
+}
+
+.logo-container img {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.signup-container {
+  position: relative;
+  bottom: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding-top: 74%;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.signup-container p {
+  margin-bottom: 10px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 12rem;
+  font-weight: 900;
+
+
+}
+.btn-primary {
+  font-size: 1.5rem;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50px;
+  background-color: #4E6EE2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .signup-container {
+    bottom: 100px;
+  }
+
+  .signup-container h2 {
+    font-size: 4rem;
+  }
+
+  .signup-container p {
+    font-size: 2rem;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+}
+
+button {
+  font-weight: 700;
+}
+.container-fluid {
+  background-image: linear-gradient(to bottom, transparent, rgb(179, 191, 238)), url('/assets/images/Home.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+p {
+  font-size: 16rem;
+}

@@ -1,0 +1,74 @@
+.donation-page {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.image {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.form {
+  flex: 2;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input[type='number'],
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button[type='submit'] {
+  background-color: #4E6EE2;
+  border: none;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0069d9;
+}
+
+.container-fluid {
+  background-image: linear-gradient(to bottom, transparent, rgb(179, 191, 238)), url('/assets/images/donate.png');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}

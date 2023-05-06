@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.column {
+  flex: 1;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.image-column {
+  width: 100%;
+  height: 95vh;
+}
+
+.image-column img {
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+}
+
+.titleThankYou{
+  color: #797BE4;
+}
+
+.thankyoudesc{
+  font-size: 150%;
+}

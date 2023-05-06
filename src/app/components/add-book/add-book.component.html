@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <h1>Be Part of the
+    <h1 class="hh">Kommunity</h1>
+    Today
+  </h1>
+  <div class="login">
+    <div class="image"><img src="/assets/images/signup-volunteer.png" alt=""></div>
+    <form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+      <div class="details">
+        <h1 class="title">Become a Volunteer Today</h1>
+        <div class="input">
+          <label>First Name</label>
+          <input type="text" formControlName="name" required>
+        </div>
+
+        <div class="input">
+          <label>Last Name</label>
+          <input type="text" formControlName="price" required>
+        </div>
+
+        <div class="input">
+          <label>Email Address</label>
+          <input type="text" formControlName="description" required>
+        </div>
+
+        <button class="login-button" type="submit" value="add">Sign up</button>
+      </div>
+    </form>
+  </div>
+</div>

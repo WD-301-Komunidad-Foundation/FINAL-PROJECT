@@ -1,0 +1,176 @@
+:root {
+  --bg-main: #2b2b2b;
+  --bg-accent: #323232;
+  --accent: lightslategray;
+}
+
+body {
+  font-family: montserrat, open-sans, sans-serif;
+  background-color: var(--bg-main);
+  color: #fff;
+  line-height: 1.5;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Cards */
+.card-container {
+  padding: 0 1rem;
+  counter-reset: card;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 10% 0;
+  padding: 10px;
+  border-radius: 1rem;
+  background: var(--bg-accent);
+  box-shadow: -12px 12px 24px, 12px -12px 24px white;
+  display: flex;
+  grid-template-rows: 1.5fr 1fr 75px;
+  background: linear-gradient(225deg, #4e6ee2, rgb(129, 104, 199));
+}
+
+.card-header {
+  aspect-ratio: 16/12;
+  overflow: hidden;
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+  margin-bottom: -100%;
+}
+
+.card-header::after {
+  counter-increment: card;
+  /* Increment the value of the counter by 1 */
+  content: "0" counter(card);
+  position: absolute;
+  inset: auto 0 0 auto;
+  margin-bottom: 0.5em;
+  font-size: clamp(3rem, 5vw, 6rem);
+  color: var(--accent);
+  font-weight: 800;
+  opacity: 0.75;
+}
+
+.card img {
+  min-height: 100%;
+}
+
+.card-body ,card-footer {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card h3 {
+  padding-top: 37vh;
+  margin: 0 0 0.25em 0;
+  position: relative;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+
+.card-body p {
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+
+@media only screen and (min-width: 400px) {
+  .card-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    max-width: 92%;
+    margin: 0 auto;
+  }
+
+  .card h3 {
+    margin: 0 0 0.25em 0;
+    position: relative;
+    font-size: 1.75rem;
+  }
+
+  .card-header::after {
+    margin-bottom: 0;
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+  .card-container {
+    max-width: 85%;
+    gap: 2rem;
+  }
+}
+
+.btn {
+ font-weight: regular;
+ border-radius: .5rem;
+ padding: 14px 20px;
+ font-size: 13px;
+ outline: none;
+ max-width: 42%;
+ cursor: pointer;
+ text-align: center;
+ display: inline-block;
+ transition: all .3s;
+ background-color: transparent;
+ border: 1px solid var(--accent);
+ color: var(--accent);
+ }
+
+
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    background-size: contain;
+    background-position: top;
+    height: auto;
+  }
+}
+
+
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+p {
+  font-size: 1rem;
+  font-family: serif;
+}
+.container-fluid {
+  background-image: linear-gradient(to bottom, transparent, rgb(179, 191, 238)), url('/assets/images/projectsoutreach.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
