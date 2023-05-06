@@ -9,11 +9,15 @@ With the help of these partnerships, the Komunidad Foundation has been able to m
 The Website Consists of Components Such as 
 
 - App Component
+- Home Component
 - About Component
-- Outreach Component
-- Partnership Component
-- Register Component
+- Projects Component
+- Book-List Component
+- Volunteer/Add-book Component
 - Donate Component
-- Appreciate Component
+- Footer Component
+- Our Team Component
+- Partners Component
+- Thank You Component
 
 
